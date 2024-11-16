@@ -20,10 +20,13 @@ The analysis used a dataset of tweets with content related to Donald Trump's pol
 
 #### 1. **Sentiment Distribution**
    - A pie chart illustrated the distribution of sentiments across all tweets. This showed the percentage of tweets categorized as positive, neutral, and negative.
+   - The pie chart displays the distribution of sentiments. The largest portion is neutral at 50.6%, followed by positive sentiments at 35.3%, and negative sentiments are the smallest at 14.1%.
    - The bar plot provided a count-based comparison, making it clear which sentiment category was dominant in the data.
+   - The bar chart displays the distribution of sentiments across three categories: Neutral, Positive, and Negative. The Neutral sentiment has the highest count, exceeding 40. Positive sentiment follows with a count slightly above 30, while Negative sentiment has the lowest count, around 10.
 
 #### 2. **Sentiment Trend Over Time**
    - A line plot showed the sentiment trend over time, with an additional 3-month moving average line to smooth fluctuations. This allowed for a clearer view of changes in sentiment regarding Trump’s policies over the selected period.
+   - It also displays the sentiment trend over time from April 2024 to November 2024. The sentiment score initially increases in May, peaks, and then drops sharply in June. It begins to recover in August and shows a positive trend by November.
 
 #### 3. **Top Positive and Negative Tweets**
    - Based on sentiment scores, the top positive and negative tweets were identified:
@@ -36,6 +39,7 @@ The analysis used a dataset of tweets with content related to Donald Trump's pol
 
 #### 4. **Temporal Analysis: Heatmap**
    - A heatmap displayed the average sentiment scores by day of the week and month, allowing us to observe any day-specific patterns in sentiment expression.
+   - The heatmap visualizes sentiment scores by the day of the week across different months from 2020 to 2024. Positive sentiment peaks at 0.29 on day 2 in May 2024. Notable negative sentiment is present at -0.14 on day 4 in June 2024. Overall, sentiment varies, with the highest positive and negative values occurring in 2024.
 
 ### Conclusion
 The sentiment analysis on tweets concerning Trump’s policies suggests that there was a notable level of negative sentiment among users discussing the impact on international students, particularly Indian F1 students. The trend analysis indicated fluctuations in sentiment over time, with certain periods showing spikes in negative or positive sentiment, likely correlating with specific political events or policy announcements.
